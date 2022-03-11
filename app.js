@@ -11,11 +11,11 @@ const map = document.getElementById("map");
 
 function handleHome() {
   map.classList.add("hidden");
-  mainTitle.innerText = "Think";
-  mainContent1.innerText = "What is";
+  mainTitle.innerText = "The Industiral paper,";
+  mainContent1.innerText = "Think What is";
   mainContent2.innerText = "the Easy & Fast way";
   mainContent3.innerText = "to find the 100 % Customized";
-  mainContent4.innerText = "Sack kraft paper & Fluting Paper";
+  mainContent4.innerText = "Sack kraft paper & Fluting Paper?";
 }
 
 handleHome();
