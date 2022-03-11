@@ -8,6 +8,9 @@ const mainContent2 = document.getElementById("mainContent2");
 const mainContent3 = document.getElementById("mainContent3");
 const mainContent4 = document.getElementById("mainContent4");
 const map = document.getElementById("map");
+const contact = document.getElementById("contact");
+const headerTitle = document.getElementById("headerTitle");
+const headerDescription = document.getElementById("headerDescription");
 
 function handleHome() {
   map.classList.add("hidden");
@@ -53,3 +56,6 @@ navHome.addEventListener("click", handleHome);
 navProduct.addEventListener("click", handleProduct);
 navLocation.addEventListener("click", handleLocation);
 navContact.addEventListener("click", handleContact);
+contact.addEventListener("click", handleContact);
+headerTitle.addEventListener("click", handleHome);
+headerDescription.addEventListener("click", handleProduct);

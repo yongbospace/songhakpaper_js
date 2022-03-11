@@ -155,6 +155,12 @@ main {
   margin-bottom: 10px;
 }
 
+#contact,
+#headerTitle,
+#headerDescription {
+  cursor: pointer;
+}
+
 #map {
   height: 100%;
 }
