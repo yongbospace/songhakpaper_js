@@ -14,7 +14,7 @@ const headerDescription = document.getElementById("headerDescription");
 
 function handleHome() {
   map.classList.add("hidden");
-  mainTitle.innerText = "The Industiral paper";
+  mainTitle.innerText = "The Industrial paper";
   mainContent1.innerText = "Think, What is";
   mainContent2.innerText = "the Easy & Fast way";
   mainContent3.innerText = "to find the 100% Customized";
