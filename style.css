@@ -149,20 +149,18 @@ main {
 .main__content {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .main__content span {
   margin-bottom: 10px;
+  width: 80%;
 }
 
 #contact,
 #headerTitle,
 #headerDescription {
   cursor: pointer;
-}
-
-#map {
-  height: 100%;
 }
 
 .copyright {
